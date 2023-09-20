@@ -1,9 +1,10 @@
 name: Linux, gcc, EDK2
 
-on:
-  push:
-    tags:
-      - '*'
+#on:
+#  push:
+#    tags:
+#      - '*'
+on: workflow_dispatch
 
 env:
   COMPILER: GCC5
